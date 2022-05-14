@@ -1,0 +1,38 @@
+// Why react hooks ?
+// may 29,2013 release -v0.3.0(Jorden walke, facbook engeneer)
+// state, props, components, composition old react
+
+// jan 17,2015 ES6 introduction, nad come in JS class declaration
+
+// feb 16, 2019 -v16.8 introduce REACT HOOKS......................
+
+// State management in functional component. using useState hooks
+// Lifecycle methode complexities solve in React.useEffect (side effect) hooks.
+// solving duplicate code in react using hooks.
+// Sharing same logic using custom hooks.
+
+useState:
+#useEffect: 
+    powerfull huks.
+    its working for sideEffect (external working system) .
+
+    React core responsibiities: 
+        1. User interface rendernig or re-rendaring.
+        2. render JSX code.
+        3. manage State & props.
+        4. evaluating State/ Props change.
+
+    React sideEffect:
+        1.Fetching data from API
+        2.Upating DOM
+        3.Setting any subcriptions
+        4.Setting any timers 
+
+    Side effect ->lifecycle methode ( componentDidMount, componentWillMount, ComponentDidUpdate, componentWillUnmount ) etc.
+
+    problems, 
+        1. code repeatation.
+        2. unorganised code.
+
+# useCallback Hooks:
+    1. performance optimisattion
